@@ -34,3 +34,4 @@ set COMBINED=%COMM%%filename_only:"=% progress" -c "exit"
 cd "%localappdata%\Temp\"
 start openocd %COMBINED%
 echo "Done, check OpenOCD window!"
+cd %mypath%
