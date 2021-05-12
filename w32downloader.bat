@@ -12,7 +12,7 @@ IF EXIST %mypath%\%x% (echo Found cfg file: %x%) ELSE (echo ERROR: file %x% not 
 
 
 rem Copy the cfg to temp
-IF EXIST "%localappdata%\Temp\"%x% (echo Copied cfg to TEMP: Success!!) ELSE (xcopy /s %mypath%\%x%  "%LocalAppData%\Temp")
+xcopy /s %mypath%\%x%  "%LocalAppData%\Temp" /Y
 
 rem Find the arg1 SVF file
 set FILENAME=%1
@@ -26,7 +26,7 @@ for /F "delims=" %%i IN ("%FILENAME%") DO (
 	set fileextension=%%~xi
 )
 set filename_only=%filename0%%fileextension%
-IF EXIST "%localappdata%\Temp\"%filename_only% (echo Success!!) ELSE (xcopy /s %FILENAME%  "%LocalAppData%\Temp")
+xcopy /s %FILENAME%  "%LocalAppData%\Temp" /Y
 
 rem Launch from temp
 set COMM=-f %x% -c "svf 
