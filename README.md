@@ -1,5 +1,7 @@
 # win32-fpga-downloader
-OpenOCD Based fpga flasher!
+OpenOCD Based fpga flasher for Windows!
+
+**Support for the Pikes Peak v2 and Sorey Peak v2 Microsoft Fpga's :) ** <- Stratix V GSD5
 
 **Support only for ft232h help with other ftdi's is welcome :) **
 
