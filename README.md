@@ -38,6 +38,7 @@ Basic Usage:
 2. Copy the svf file path and name example: "X:\Quartus\output_files\myfile.svf".
 3. run the command: w32downloader.bat <path to svf> (example: w32downloader.bat X:\Quartus\output_files\myfile.svf).
 4. wait and openocd should open :)
+
 ![image](https://user-images.githubusercontent.com/58897843/118001863-7eefcb80-b31d-11eb-8778-45cd20cd9dba.png)
 
 
