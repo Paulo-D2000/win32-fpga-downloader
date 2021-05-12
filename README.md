@@ -15,7 +15,7 @@ https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
 
 3.Donwload this repository and extract it to somewhere.
 
-4.download Zadig -> https://zadig.akeo.ie
+4.Pug the USB-B in your board & PC and download Zadig -> https://zadig.akeo.ie
 
 5.Start up the Zadig utility
 
