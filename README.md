@@ -28,7 +28,8 @@ Be sure to select the parent device, i.e. the device name should not end with (I
 for example Dual RS232-HS represents the composite parent, while Dual RS232-HS (Interface 0) represents a single channel of the FTDI device. Always select the former.
 
 8.Select  WinUSB in the driver list.
-![image](https://user-images.githubusercontent.com/58897843/118001655-51a31d80-b31d-11eb-9e0d-e7f416434f16.png)
+![image](https://user-images.githubusercontent.com/58897843/119173245-5febea80-ba3d-11eb-98f6-624805a47dac.png)
+
 
 
 9.Click on Replace Driver
