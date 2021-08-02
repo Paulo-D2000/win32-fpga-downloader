@@ -51,5 +51,6 @@ Using other FFPGA Boards:
 2. delete the original .cfg and start edditing the new one.
 3. in the field CHIPNAME change it to your board's name
 4. in the field FPGA_TAPID change it to your board's jtag ID (seach online)
+  
 ![image](https://user-images.githubusercontent.com/58897843/118002164-beb6b300-b31d-11eb-8e9b-15793038b0e4.png)
 
